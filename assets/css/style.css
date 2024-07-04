@@ -18,12 +18,15 @@
    */
 
   --white: hsla(0, 0%, 100%, 1);
-  --white_a8: hsla(0, 0%, 100%, 0.08);
+  --black-teste: rgb(0, 0, 0);
+  --white_a8: hsla(0, 100%, 52%, 0.08);
   --white_a12: hsla(0, 0%, 100%, 0.12);
   --cultured: hsla(220, 20%, 97%, 1);
+  --cultured-black-teste: rgb(0, 0, 0);
   --snow: hsla(345, 57%, 97%, 1);
   --manatee: hsla(219, 10%, 62%, 1);
   --black-coral: hsla(220, 12%, 43%, 1);
+  --white-coral-textos-teste: rgb(0, 0, 0);
   --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
   --cinnamon-satin: rgb(212, 179, 97);
   --raisin-black: hsla(216, 14%, 14%, 1);
@@ -313,8 +316,8 @@ body.nav-active { overflow: hidden; }
 }
 
 .nav-close-btn {
-  background-color: var(--white_a8);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
   font-size: 2rem;
   padding: 6px;
   border-radius: var(--radius-circle);
